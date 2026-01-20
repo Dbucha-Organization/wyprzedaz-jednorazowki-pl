@@ -424,18 +424,19 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
-    background: white;
-    color: var(--dark-bg);
-    padding: 14px 28px;
+    background: linear-gradient(135deg, #FF6B6B 0%, #FF8E72 100%);
+    color: white;
+    padding: 14px 32px;
     border-radius: 50px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
     transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
 }
 
 .btn-download:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(255, 107, 107, 0.6);
 }
 
 .btn-outline {
@@ -913,29 +914,32 @@ a {
 .btn-plan {
     width: 100%;
     padding: 16px;
-    background: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #FF6B6B 0%, #FF8E72 100%);
     color: white;
     border-radius: 50px;
     font-size: 15px;
-    font-weight: 600;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 700;
+    border: none;
     transition: var(--transition);
     margin-top: auto;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
 }
 
 .btn-plan:hover {
-    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.5);
 }
 
 .btn-plan.premium {
-    background: white;
-    color: var(--primary-purple);
-    border-color: white;
+    background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(78, 205, 196, 0.3);
 }
 
 .btn-plan.premium:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(78, 205, 196, 0.5);
 }
 
 /* Benefits */
