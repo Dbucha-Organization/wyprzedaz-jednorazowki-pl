@@ -1370,6 +1370,20 @@ footer svg {
         grid-template-columns: 1fr;
     }
 
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .product-card {
+        padding: 20px;
+    }
+
+    .product-img {
+        width: 180px;
+        height: 180px;
+    }
+
     .pricing-grid {
         grid-template-columns: 1fr;
     }
@@ -1434,6 +1448,32 @@ footer svg {
     .cta-stats {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px;
+    }
+
+    .product-card {
+        padding: 16px;
+    }
+
+    .product-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .product-card h1 {
+        font-size: 18px;
+    }
+
+    .product-card span {
+        font-size: 12px;
+    }
+
+    .product-card p {
+        font-size: 13px;
     }
 }
 
